@@ -12,7 +12,6 @@ import {
 import Rating from "../components/Rating";
 import { useDispatch, useSelector } from "react-redux";
 import { listProductDetails } from "../actions/productActions";
-import { productDetailsReducer } from "../reducers/productReducers";
 import Loader from "../components/Loader";
 import Message from "../components/Message";
 
